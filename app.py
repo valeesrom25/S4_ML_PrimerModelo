@@ -4,8 +4,8 @@ import time
 
 # Configuración de página
 st.set_page_config(
-    page_title="Ecuaciones de Primer Grado",
-    page_icon="🧠",
+    page_title="Practica Ecuaciones",
+    page_icon="🧠 p",
     layout="centered"
 )
 
@@ -118,7 +118,7 @@ if st.session_state.equation:
         unsafe_allow_html=True
     )
 
-    respuesta = st.number_input("Ingresa el valor de x:", step=1)
+    respuesta = st.number_input("Ingresa el valor de x:",  step=1)
 
     if st.button("✅ Verificar Respuesta"):
 
